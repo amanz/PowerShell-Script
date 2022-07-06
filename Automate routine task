@@ -1,0 +1,9 @@
+Automate Daily Routine with PowerShell Script
+
+During my time in Higashifuji, I used to have a lot of routine to perform at the office. 
+Every day, I'll open up 3 applications before we start out a brief morning meeting or perform my daily task.
+Those 3 applications were Outlook, ERP and Million Accounting software. 
+Since it became my daily routine, I then tried to figure out a way to simplify the task by automating it into just one click.
+Here I share the command by using PowerShell. 
+
+

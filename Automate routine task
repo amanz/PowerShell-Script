@@ -1,9 +1,29 @@
-Automate Daily Routine with PowerShell Script
+write-host "'n1 -> Development (Chrome, VScode)"
+write-host "'n2 -> Development with Database (PyCharm, MSSM, Chrome)"
+write-host "'n2 -> R, Chrome"
 
-During my time in Higashifuji, I used to have a lot of routine to perform at the office. 
-Every day, I'll open up 3 applications before we start out a brief morning meeting or perform my daily task.
-Those 3 applications were Outlook, ERP and Million Accounting software. 
-Since it became my daily routine, I then tried to figure out a way to simplify the task by automating it into just one click.
-Here I share the command by using PowerShell. 
+$Choice = Read-Host -Prompt "Enter your choice"
+if($Choice -eq 1){
+    Write-Host "nopening Chrome and VScode"
+    Start-Process -FilePath 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+    Start-Process -FilePath 'C:\Users\user\AppData\Local\Programs\Microsoft VS Code\Code.exe'
+    cls
+}
+elseif($Choice -eq 2){
+    Write-Host "opening PyCharm, MSSM and Chrome"
+    Start-Process -FilePath 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+    Start-Process -FilePath 'C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.2\bin\pycharm64.exe'
+    Start-Process -FilePath 'C:\Users\user\AppData\Local\Programs\Microsoft VS Code\Code.exe'
+    cls
+}
+elseif($Choice -eq 3){
+    Write-Host "opening R and Chrome"
+    Start-Process -FilePath 'C:\Program Files\R\R-4.2.0\bin\x64\Rgui.exe'
+    Start-Process -FilePath 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+    cls
+}
+else{
+    Write-Host "Wrong Entry"
+}
 
 

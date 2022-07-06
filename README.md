@@ -15,3 +15,8 @@ So this is a sample of script that you may use;
 Once done with the script, please save it in C directory using any name that you waant to. For me, I saved it as AppLauncher.
 
 ![save it](https://user-images.githubusercontent.com/3311519/177548580-15b1c192-3539-4d38-8928-3ad9ae9b75e2.png)
+
+Right click and run it with PowerShell. 
+
+
+![right cl](https://user-images.githubusercontent.com/3311519/177550038-4d23965e-d06d-45b9-b66b-bb54850a6615.png)
